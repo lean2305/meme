@@ -116,8 +116,8 @@ header .vert-text .scroll-down::before {
 
 
 form{
-	margin-top: 70px;
 	width: 100%;
+  display: contents;
 }
 
 input[type=text]{
