@@ -27,7 +27,7 @@ if($nr == 1)
     $_SESSION['user'] = $nome;
     $_SESSION['Senha'] = $senha;
     echo "Benvindo:" .$nome;//para teste caso algo corra mal
-    header("Location: home/home.php");//este codigo faz com que abra a pagina restrita
+    header("Location: home.php");//este codigo faz com que abra a pagina restrita
 }
 
 else if ($nr == 0)

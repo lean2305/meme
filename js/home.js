@@ -16,3 +16,13 @@ allVideos.forEach(v => {
     video.pause();
   });
 });
+
+var hamburger = document.querySelector('#hamburger'),
+navList = document.querySelector('#navlist');
+
+
+var toggleNav = function() {
+  hamburger.classList.toggle('js-active')
+  navList.classList.toggle('js-active')
+}
+hamburger.addEventListener('click', toggleNav)

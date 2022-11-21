@@ -803,3 +803,20 @@ body {
     bottom: 60px;
   }
 }
+
+
+#hamburger {
+  color: red;
+ }
+ 
+ .js-active#hamburger {
+ color: green;
+ }
+ 
+ #navlist {
+   display: none;
+ }
+ 
+ .js-active#navlist {
+   display: block;
+ }

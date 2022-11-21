@@ -16,9 +16,14 @@
    </div>
  <div class="header">
   <div class="header-left">
+  <div class="container hamburger" id="hamburger">
+
    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
     <path d="M3 12h18M3 6h18M3 18h18" /></svg>
+    
+</div>
    <div class="logo">
+    
    </div>
    <div class="search-bar">
     <input type="text" placeholder="Search..." />
@@ -44,10 +49,14 @@
   </div>
  </div>
  <div class="wrapper">
-  <div class="left-side">
+ 
+<ul class="col-m-9 navlist" id="navlist">
+   
+
+  <div class="left-side" id="box">
    <div class="side-wrapper">
     <div class="side-menu">
-     <a href="#">
+     <a href="home.php">
       <svg width="20" height="17" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
        <defs>
         <path id="a" d="M13 22v-6h4v6h5v-8h3L15 5 5 14h3v8z" />
@@ -194,6 +203,7 @@
     </div>
    </div>
   </div>
+  </ul>
   <div class="main-container">
    <div class="profile">
     <img src="https://images.unsplash.com/photo-1559543434-3e99643d333d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="" class="profile-cover">
