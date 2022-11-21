@@ -47,7 +47,6 @@ body {
 .video-app {
   display: flex;
   flex-direction: column;
-  max-width: 1400px;
   height: 100vh;
   margin: 0 auto;
   overflow: hidden;
